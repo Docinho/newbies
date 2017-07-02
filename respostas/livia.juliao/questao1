@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sed != '/remote - -/' jan_95.txt
+sed != '/local - -/' jan_95.txt 
+cat jan_95.txt | grep local - - | wc -l
+cat jan_95.txt | grep remote - - | wc -l
+
